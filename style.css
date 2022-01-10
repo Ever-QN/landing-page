@@ -15,4 +15,35 @@ a {
 
 button {
     border-radius: 5px;
+    border: none;
+    background-color: #3882F6;
+    color: white
+}
+
+.header {
+    background-color: #1F2937;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.quarter1 {
+    background-color: #1F2937;
+}
+
+.quarter1-title {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.quarter1-subtext, .header-links {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.footer {
+    background-color: #1F2937;
 }
