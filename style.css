@@ -159,7 +159,43 @@ button {
     font-weight: 800;
 }
 
+.quarter4 {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882F6;
+    color: white;
+    margin: 100px;
+    padding: 55px;
+    border-radius: 5px;
+}
 
+.banner {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-title {
+    display: flex;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.banner-subtitle {
+    display: flex;
+}
+
+.q4-signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    border: white;
+    border-style: solid;
+    padding: 3px;
+    color: white;
+    border-width: 2px;
+    width: 150px;
+}
 
 .footer {
     color: white;
