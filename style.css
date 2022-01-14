@@ -96,11 +96,45 @@ button {
 }
 
 .quarter2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: white;
 }
 
+.quarter2-title {
+    display: flex;
+    padding: 50px;
+    margin-bottom: -35px;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: extra-bold;
+}
+
 .card-container {
-    
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+    gap: 10px;
+}
+
+.card-img {
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(77, 181, 245);
 }
 
 .footer {
@@ -108,4 +142,5 @@ button {
     background-color: #1F2937;
     display: flex;
     justify-content: center;
+    padding: 25px;
 }
