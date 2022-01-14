@@ -15,7 +15,7 @@
 ul {
     list-style-type: none;
     margin: 0;
-    margin-right: 160px;
+    margin-right: 130px;
     padding: 0;
     display: flex;
     gap: 20px;
@@ -30,11 +30,6 @@ a {
 button {
     border-radius: 5px;
     border: none;
-    background-color: #3882F6;
-    color: white;
-    padding: 10px;
-    margin-right: 25px;
-    margin-top: 10px;
     width: 100px;
     font-weight: bold;
 }
@@ -62,7 +57,7 @@ button {
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
-    margin-left: 170px;
+    margin-left: 130px;
 }
 
 .quarter1 {
@@ -87,12 +82,15 @@ button {
 }
 
 .q1-signup {
-    
+    background-color: #3882F6;
+    color: white;
+    padding: 10px;
+    margin-right: 25px;
+    margin-top: 10px;
 }
 
 .quarter1-subtext {
     max-width: 450px;
-    
 }
 
 .quarter2 {
